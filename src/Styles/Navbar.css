@@ -1,0 +1,23 @@
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    margin-left: -8px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-bottom-color: gray;
+}
+
+.logo{
+    height: 6vh;
+    position: absolute;
+    margin-top: 0.5vh;
+    margin-left: 5vw;
+}
+
+.togglebutton{
+
+}
+
+.links{
+    text-align: center;
+}
