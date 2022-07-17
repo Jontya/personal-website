@@ -1,0 +1,55 @@
+.sidebar-container{
+    opacity: 0.7;
+    position: fixed;
+    font-size: .85em;
+    width: 11%;
+    height: 38vh;
+    transition: 0.3s;
+}
+.sidebar-container:hover{
+    opacity: 1;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sidebar-logo{
+    height: 12vh;
+    margin-top: 0;
+}
+
+.sidebar-contacts{
+    margin-left: 0; 
+    padding-left: 0;
+    margin-top: 30px;
+}  
+
+.sidebar-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar-icons{
+    background-color: gray;
+    margin-top: 10px;
+    width: 6%;
+    height: 100%;
+}
+
+.sidebar-info{
+    background-color: gray;
+    width: 70%;
+    margin-top: -48%;
+    margin-left: 8%;
+}
+
+.sidebar-item{
+    margin-top: 15px;
+}
+
