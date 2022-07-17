@@ -1,0 +1,15 @@
+.home-container{
+    margin-top: 60px;
+    width: 64%;
+    margin-left: 20rem;
+    height: 80vh;
+}
+
+.about-me{
+    opacity: 0.1;
+    background-color: lightgray;
+    font-size: 1.1em;
+    width: 82%;
+    margin-left: 14rem;
+    height: 100vh;
+}
