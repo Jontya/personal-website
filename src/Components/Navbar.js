@@ -6,19 +6,20 @@ import {Link} from 'react-router-dom';
 function Navbar() {
   return (
     <div className='navbar'>
-        <img className="logo" src={logo} alt="logo"/>
-        <div className='name-container'>
-            <p className='title-name'>Jonty Atkinson</p>
-            <p className='title-undertext'>Personal Portfolio</p>
-        </div>
-        <div className='toggle-button'>
-            
+      <div className='navbar-container'>
+        <div className='logo-container'>
+          <img className="navbar-logo" src={logo} alt="logo"/>
+          <div className='name-container'>
+              <p className='title-name'>Jonty Atkinson</p>
+              <p className='title-undertext'>Personal Portfolio</p>
+          </div>
         </div>
         <div className='links'>
             <Link to="/" className='hover-animation'>Home</Link>
             <Link to="/projects" className='hover-animation'>Projects</Link>
             <Link to="/resume" className='hover-animation'>Resume</Link>
         </div>
+      </div>
     </div>
   )
 }
