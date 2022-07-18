@@ -14,10 +14,10 @@ function Sidebar() {
         </p>
         <IconContext.Provider value ={{size: "1.2em", }}>
             <ul className='sidebar-list'>
-                <li className='sidebar-item'><FaMapMarkerAlt/> Newcastle, Australia</li>
-                <li className='sidebar-item'><FaEnvelope/> <a href="mailto:jontyatkinson2002@gmail.com">Email</a></li>
-                <li className='sidebar-item'><FaLinkedin/> <a href="https://www.linkedin.com/in/jonty-atkinson/">LinkedIn</a></li>
-                <li className='sidebar-item'><FaGithub/> <a href="https://github.com/Jontya">GitHub</a></li>
+                <li className='sidebar-item'><FaMapMarkerAlt className='icon'/> Newcastle, Australia</li>
+                <li className='sidebar-item'><FaEnvelope className='icon'/> <a href="mailto:jontyatkinson2002@gmail.com">Email</a></li>
+                <li className='sidebar-item'><FaLinkedin className='icon'/> <a href="https://www.linkedin.com/in/jonty-atkinson/">LinkedIn</a></li>
+                <li className='sidebar-item'><FaGithub className='icon'/> <a href="https://github.com/Jontya">GitHub</a></li>
             </ul>
         </IconContext.Provider>
     </div>
