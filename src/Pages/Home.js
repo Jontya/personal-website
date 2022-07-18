@@ -4,15 +4,13 @@ import "../Styles/Home.css"
 
 function Home() {
   return (
-    <div className="home-container">
-      <Sidebar/>
-      <div className='about-me'>
-        
-      </div>
-      <div className='project-showcase'>
+    <div className="home">
+        <div className='home-sidebar'>
+          <Sidebar />
+        </div>
+        <div className='home-about'>
 
-
-      </div>
+        </div>
     </div>
   )
 }
