@@ -7,8 +7,9 @@ import {FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt} from "react-icons/fa"
 function Sidebar() {
   return (
     <div className='sidebar-container'>
+      <div className='sticky'>
         <img className="sidebar-logo" src={logo} alt="logo"/>
-        <h3>Jonty Atkinson</h3>
+        <h3 className='sidebar-head'>Jonty Atkinson</h3>
         <p>
             Studying Computer Science<br/> at the University of Newcastle
         </p>
@@ -20,6 +21,7 @@ function Sidebar() {
                 <li className='sidebar-item'><FaGithub className='icon'/> <a href="https://github.com/Jontya">GitHub</a></li>
             </ul>
         </IconContext.Provider>
+      </div>
     </div>
   )
 }

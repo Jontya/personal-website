@@ -9,7 +9,7 @@ function Home() {
           <Sidebar />
         </div>
         <div className='home-about'>
-
+          
         </div>
     </div>
   )
