@@ -41,6 +41,7 @@
 .navbar-container a {
     text-decoration: none;
     margin: 2rem;
+    margin-right: 0;
     font-size: 1em;
 }
 
