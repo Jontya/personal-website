@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {Document} from "react-pdf";
 
 function Resume() {
   return (
-    <div>Resume</div>
+    <div classname='resume-container'>
+      <Document file="./Resume.pdf" />
+    </div>
   )
 }
 
