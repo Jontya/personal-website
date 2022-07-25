@@ -7,9 +7,11 @@ import ResumePDF from './Resume.pdf'
 function Resume() {
   return (
     <div className='resume'>
-      <Document file={ResumePDF}>
-        <Page pageNumber={1} />
-      </Document>
+      <div className='document'>
+        <Document file={ResumePDF}>
+          <Page pageNumber={1} className="page" />
+        </Document>
+      </div>
     </div>
   )
 }

@@ -4,3 +4,9 @@
     margin-bottom: 0;
     width: min(90%, 70.5rem);
 }
+
+.react-pdf__Page__canvas {
+    margin-inline: auto;
+    width: 70% !important;
+    height: 100% !important;
+}
