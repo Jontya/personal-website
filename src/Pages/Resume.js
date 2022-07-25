@@ -1,10 +1,15 @@
 import React from 'react';
-import {Document} from "react-pdf";
+import '../Styles/Resume.css'
+import {Document, Page} from 'react-pdf/dist/esm/entry.webpack5';
+import ResumePDF from './Resume.pdf'
+
 
 function Resume() {
   return (
-    <div classname='resume-container'>
-      <Document file="./Resume.pdf" />
+    <div className='resume'>
+      <Document file={ResumePDF}>
+        <Page pageNumber={1} />
+      </Document>
     </div>
   )
 }
