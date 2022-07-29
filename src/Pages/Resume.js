@@ -11,9 +11,9 @@ function Resume() {
       <IconContext.Provider value ={{size: "1.2em", }}>
       <p className='resume-phone'><FaPhoneAlt className='icon'/> <span className='resume-phone-icon'>(+61) 0416-690-572</span></p>
         <ul className='resume-contacts'>
-          <li><a href="mailto:jontyatkinson2002@gmail.com" className='hover-animation'><FaEnvelope className='icon'/> Email</a></li>
-          <li><a href="https://www.linkedin.com/in/jonty-atkinson/" className='hover-animation'><FaLinkedin className='icon'/> LinkedIn</a></li>
-          <li><a href="https://github.com/Jontya" className='hover-animation'><FaGithub className='icon'/> GitHub</a></li>
+          <li><a href="mailto:jontyatkinson2002@gmail.com" className='hover-animation'><FaEnvelope className='icon'/> <span className='icon-spacing'>Email</span></a></li>
+          <li><a href="https://www.linkedin.com/in/jonty-atkinson/" className='hover-animation'><FaLinkedin className='icon'/> <span className='icon-spacing'>LinkedIn</span></a></li>
+          <li><a href="https://github.com/Jontya" className='hover-animation'><FaGithub className='icon'/> <span className='icon-spacing'>GitHub</span></a></li>
         </ul>
       </IconContext.Provider>
 

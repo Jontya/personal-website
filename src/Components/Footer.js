@@ -11,10 +11,10 @@ function Footer() {
         <div className='footer-contacts'>
         <IconContext.Provider value ={{size: "1.2em"}}>
           <ul className='footer-list'>
-            <li>CONTACT ME:</li>
-            <li className='footer-item'><a href="mailto:jontyatkinson2002@gmail.com"> <FaEnvelope className='icon'/> EMAIL</a></li>
-            <li className='footer-item'><a href="https://www.linkedin.com/in/jonty-atkinson/"><FaLinkedin className='icon'/> LINKEDIN</a></li>
-            <li className='footer-item'><a href="https://github.com/Jontya"><FaGithub className='icon'/> GITHUB</a></li>
+            <li><span className='footer-list-text'>CONTACT ME:</span></li>
+            <li className='footer-item'><a href="mailto:jontyatkinson2002@gmail.com" className='hover-animation'> <FaEnvelope className='icon'/> <span className='icon-spacing'>EMAIL</span></a></li>
+            <li className='footer-item'><a href="https://www.linkedin.com/in/jonty-atkinson/" className='hover-animation'><FaLinkedin className='icon'/> <span className='icon-spacing'>LINKEDIN</span></a></li>
+            <li className='footer-item'><a href="https://github.com/Jontya" className='hover-animation'><FaGithub className='icon'/> <span className='icon-spacing'>GITHUB</span></a></li>
           </ul>
         </IconContext.Provider>
         </div>

@@ -16,9 +16,9 @@ function Sidebar() {
         <IconContext.Provider value ={{size: "1.2em", }}>
             <ul className='sidebar-list'>
                 <li className='sidebar-item'><FaMapMarkerAlt className='icon'/> Newcastle, Australia</li>
-                <li className='sidebar-item'><FaEnvelope className='icon'/> <a href="mailto:jontyatkinson2002@gmail.com">Email</a></li>
-                <li className='sidebar-item'><FaLinkedin className='icon'/> <a href="https://www.linkedin.com/in/jonty-atkinson/">LinkedIn</a></li>
-                <li className='sidebar-item'><FaGithub className='icon'/> <a href="https://github.com/Jontya">GitHub</a></li>
+                <li className='sidebar-item'><a href="mailto:jontyatkinson2002@gmail.com"><FaEnvelope className='icon'/> <span className='icon-spacing'>Email</span></a></li>
+                <li className='sidebar-item'><a href="https://www.linkedin.com/in/jonty-atkinson/"><FaLinkedin className='icon'/> <span className='icon-spacing'>LinkedIn</span></a></li>
+                <li className='sidebar-item'><a href="https://github.com/Jontya"><FaGithub className='icon'/> <span className='icon-spacing'>GitHub</span></a></li>
             </ul>
         </IconContext.Provider>
       </div>
