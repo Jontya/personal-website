@@ -2,10 +2,8 @@
     position: absolute;
     margin: 0;
     padding: 0;
-    background-color: gray;
-    margin-bottom: 0;
     opacity: 0.7;
-    font-size: .85em;
+    font-size: .85rem;
     width: 12rem;
     height: 1000px;
     transition: 0.3s;
@@ -18,12 +16,15 @@
 }
 
 .sidebar-head{
+    text-decoration: underline;
+    text-underline-offset: 7px;
     margin: 0;
 }
 
 .sidebar-container:hover{
     opacity: 1;
 }
+
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -37,6 +38,7 @@ a:hover{
 .sidebar-logo{
     height: 26%;
     padding: 0;
+    margin: 0;
 }
 
 .sidebar-list{
