@@ -3,16 +3,32 @@
     margin-top: 50px;
     margin-bottom: 0;
     width: min(90%, 70.5rem);
-    height: 1000px;
+    height: auto;
 }
 
 .home-sidebar{
     width: 12rem;
 }
 
+.home-shortcut{
+    font-weight: bold;
+    display: inline;
+}
+
 .home-about{
-    background-color: gray;
-    width: min(0, 58rem);
-    margin-left: 12.5rem;
-    height: 1000px;
+    font-weight:400;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    width: min(0, 56rem);
+    margin-left: 14.5rem;
+}
+
+.home-about-title{
+    font-size: 1.6em;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.home-about-subtitle{
+    border-bottom: 1px solid gray;
 }
