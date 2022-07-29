@@ -1,12 +1,87 @@
 .resume{
     margin-inline: auto;
+    font-weight:600;
     margin-top: 50px;
     margin-bottom: 0;
     width: min(90%, 70.5rem);
 }
 
-.react-pdf__Page__canvas {
-    margin-inline: auto;
-    width: 70% !important;
-    height: 100% !important;
+.resume ul{
+    list-style: none;
 }
+
+.resume-projects-list ul, .resume-extracurricular ul{
+    margin-bottom: 1rem;
+}
+
+.resume-list-sublist li{
+    list-style:disc;
+}
+
+.resume-header{
+    text-align: center;
+}
+
+.resume-phone{
+    display: flex;
+    justify-content: center;   
+}
+
+.resume-phone-icon{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.resume-contacts{
+    font-weight: bold;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.resume-contacts a{
+    text-decoration: none;
+}
+
+.resume-contacts li{
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.resume-title{
+    border-bottom: 0.1px solid gray;
+    font-size: 1.3rem;
+}
+
+.resume-list-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.resume-list-sidebar{
+    display: flex;
+    font-weight: bold;
+    margin-top: -1.5rem;
+    font-size: 1rem;
+    justify-content: right;
+    font-style: italic;
+}
+
+.resume-list-subtitle{
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.resume-coursework-list{
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(4, 17.7em);
+}
+
+.resume-coursework-list li{
+    list-style:disc;
+    list-style-position: inside;
+    margin-top: 1rem;
+}
+
