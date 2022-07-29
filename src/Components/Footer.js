@@ -1,6 +1,5 @@
 import React from 'react';
 import "../Styles/Footer.css";
-import logo from "../Images/logo.png";
 import { IconContext } from 'react-icons';
 import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 
