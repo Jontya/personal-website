@@ -6,7 +6,7 @@ import {bubbleSortAnimations} from "./SortingAlgorithms/BubbleSort.js";
 import "./SortingVisualizer.css";
 
 // Change this value for the number of bars (value) in the array.
-const NUMBER_OF_ARRAY_BARS = 240;
+const NUMBER_OF_ARRAY_BARS = 225;
 
 // This is the main color of the array bars.
 const PRIMARY_COLOR = "#C0C0C0";
@@ -42,7 +42,7 @@ export default class SortingVisualizer extends React.Component{
     render(){
         const {array} = this.state;
         return(
-            <div className="project-container">
+            <div className="sorting-visualizer-container">
                 <div className="array-container">
                     {array.map((value, idx) => (
                         <div 
@@ -66,7 +66,7 @@ export default class SortingVisualizer extends React.Component{
 }
 
 function animate(animations, animationTime){
-    if(sorted == false){
+    if(sorted === false){
         for (let i = 0; i < animations.length; i++) {
             const [barOneIdx, barTwoIdx, barOneHeight, barTwoHeight, colorChange] = animations[i];
             const arrayBars = document.getElementsByClassName('array-bar');
@@ -92,7 +92,7 @@ function animate(animations, animationTime){
 }
 
 function mergeAnimate(animations, animationTime){
-    if(sorted == false){
+    if(sorted === false){
         for (let i = 0; i < animations.length; i++) {
             const arrayBars = document.getElementsByClassName('array-bar');
             const isColorChange = i % 3 !== 2;
@@ -120,18 +120,6 @@ function mergeAnimate(animations, animationTime){
 
 function randomIntFromInterval(min, max){
     return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
-function arraysAreEqual(arr1, arr2){
-    if(arr1.length !== arr2.length){
-        return false;
-    }
-    for(let i = 0; i < arr1.length; i++){
-        if(arr1[i] !== arr2[i]){
-            return false;
-        }
-    }
-    return true;
 }
 
 

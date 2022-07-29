@@ -40,7 +40,7 @@ function createHeap(array, n, i, animations){
         largest = r;
     }
 
-    if (largest != i) {
+    if (largest !== i) {
         animations.push([largest, i, array[largest], array[i], false])
         animations.push([largest, i, array[largest], array[i], true])
 
