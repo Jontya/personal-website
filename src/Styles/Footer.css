@@ -4,6 +4,11 @@
     height: 100px;
 }
 
+.footer-list-text{
+    font-size: 1rem;
+}
+
+
 .footer-container{
     width: min(90%, 70.5rem);
     margin-inline: auto;
@@ -23,10 +28,15 @@
 }
 
 .footer-list li{
-    font-size: 1em;
+    font-size: 0.9em;
     list-style: none;
     display: inline-block;
     margin-right: 2em;
+}
+
+.footer-list a{
+    text-decoration: none;
+    display: flex;
 }
 
 .footer-stamp{
