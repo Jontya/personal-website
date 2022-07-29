@@ -6,6 +6,10 @@ html{
   font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 }
 
+a{
+  display: flex;
+}
+
 body{
   padding: 0;
   margin: 0;
@@ -17,4 +21,9 @@ img{
 
 .icon {
   vertical-align: middle;
+}
+
+.icon-spacing{
+  margin-top: -3px;
+  margin-left: 3px;
 }
