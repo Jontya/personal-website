@@ -68,11 +68,11 @@ function Resume() {
               <li>Takes advantage of various standard component library's to achieve crucial website functionality.</li>
             </ul>
 
-            <li className='resume-list-title'>Project 3 <span className='resume-list-subtitle'>| Lang / Tech</span> <span className='resume-list-sidebar'>August 2022</span></li>
+            <li className='resume-list-title'>Scheduling Algorithm Simulator <span className='resume-list-subtitle'>| Java, GitHub</span> <span className='resume-list-sidebar'>August 2022</span></li>
             <ul className='resume-list-sublist'>
-              <li>Point 1</li>
-              <li>Point 2</li>
-              <li>Point 3</li>
+              <li>Designed a program that simulates various scheduling algorithms.</li>
+              <li>Implements first come first serve, round robin, narrow round robin and feedback constant algorithms.</li>
+              <li>Provides extensive statistics of each process as well as the general performance of each algorithms.</li>
             </ul>
           </ul>
         </div>
