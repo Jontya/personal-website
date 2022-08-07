@@ -63,10 +63,6 @@ function Home() {
               backgroundColor: '#282b2e',
             }}
           />
-          <h2 className='home-about-subtitle'>Outside of Software Engineering</h2>
-          <p>
-
-          </p>
         </div>
     </div>
   )
