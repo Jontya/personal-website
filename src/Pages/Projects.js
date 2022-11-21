@@ -2,7 +2,6 @@ import React from 'react'
 import '../Styles/Projects.css'
 import SortingPreview from '../Images/sortingPreview.PNG'
 import ProductLineSim from '../Images/productLineSim.PNG'
-import SortingVisualizer from '../Projects/SortingVisualizer/SortingVisualizer'
 
 
 function Projects() {

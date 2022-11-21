@@ -18,17 +18,20 @@ function Sidebar() {
                         <li className='sidebar-item'>
                             <FaMapMarkerAlt className='icon'/> Newcastle, Australia
                         </li>
-                        <li className='sidebar-item'><a href="mailto:jontyatkinson2002@gmail.com">
+                        <li className='sidebar-item'>
+                            <a href="mailto:jontyatkinson2002@gmail.com" target="_blank" rel="noreferrer">
                             <FaEnvelope className='icon'/> 
                             <span className='icon-spacing'>Email</span></a>
 
                         </li>
-                        <li className='sidebar-item'><a href="https://www.linkedin.com/in/jonty-atkinson/">
+                        <li className='sidebar-item'>
+                            <a href="https://www.linkedin.com/in/jonty-akinson/" target="_blank" rel="noreferrer">
                             <FaLinkedin className='icon'/>
                             <span className='icon-spacing'>LinkedIn</span></a>
 
                         </li>
-                        <li className='sidebar-item'><a href="https://github.com/Jontya">
+                        <li className='sidebar-item'>
+                            <a href="https://github.com/Jontya" target="_blank" rel="noreferrer">
                             <FaGithub className='icon'/> 
                             <span className='icon-spacing'>GitHub</span></a>
                         </li>

@@ -13,17 +13,16 @@ function Footer() {
                         <ul className='footer-list'>
                             <li><span className='footer-list-text'>CONTACT ME:</span></li>
                             <li className='footer-item'>
-                                <a href="mailto:jontyatkinson2002@gmail.com" className='hover-animation'> 
+                                <a href="mailto:jontyatkinson2002@gmail.com" className='hover-animation' target="_blank" rel="noreferrer"> 
                                 <FaEnvelope className='icon'/> 
                                 <span className='icon-spacing'>EMAIL</span></a>
-
                             </li>
 
-                            <li className='footer-item'><a href="https://www.linkedin.com/in/jonty-atkinson/" className='hover-animation'>
+                            <li className='footer-item'><a href="https://www.linkedin.com/in/jonty-atkinson/" className='hover-animation' target="_blank" rel="noreferrer">
                                 <FaLinkedin className='icon'/> 
                                 <span className='icon-spacing'>LINKEDIN</span></a>
                             </li>
-                            <li className='footer-item'><a href="https://github.com/Jontya" className='hover-animation'>
+                            <li className='footer-item'><a href="https://github.com/Jontya" className='hover-animation' target="_blank" rel="noreferrer">
                                 <FaGithub className='icon'/> 
                                 <span className='icon-spacing'>GITHUB</span></a>
                             </li>
